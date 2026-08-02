@@ -19,3 +19,11 @@ print("temperature data type: ", type(temperature))
 print("flow rate data type: ", type(flow_rate))
 print("run_status data type: ", type(run_status))
 print("Unit Name data type: ", type(unit_name))
+
+print()
+
+print("pressure data type is int: ", isinstance(pressure,int))
+print("temperature data type is float: ", isinstance(temperature,float))
+print("flow rate data type is float: ", isinstance(flow_rate,float))
+print("run_status data type is boolen: ", isinstance(run_status,bool))
+print("Unit Name data type string: ", isinstance(unit_name,str))
