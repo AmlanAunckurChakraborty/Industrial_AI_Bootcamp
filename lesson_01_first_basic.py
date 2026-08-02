@@ -1,9 +1,7 @@
-# Lesson 01 - Variables
+# Lesson 01 - Basic
 
-pressure = 950        # kPa
-temperature = 68      # °C
-flow_rate = 45.7      # MMSCFD
-
-print("Compressor Outlet Pressure:", pressure, "kPa")
-print("Gas Temperature:", temperature, "°C")
-print("Gas Flow Rate:", flow_rate, "MMSCFD")
+pressure,run_status = 70,None
+temperature,flow_rate = 83.1,44.3
+print('pressure = ',pressure, '\nrun status = ',run_status)
+print('\n\n\n')
+print('temperature=',temperature,'\nflow rate = ',flow_rate)
