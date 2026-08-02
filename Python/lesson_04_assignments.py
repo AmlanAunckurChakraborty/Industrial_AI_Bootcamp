@@ -1,8 +1,8 @@
-# Lesson 02 - Variables & Datatype
+# Lesson 04 - Assiginments (type,isinstance,id,input)
 
-pressure = 950        # kPa
+pressure = input("Enter the current pressure : ")      # kPa
 temperature = float(68)      # °C
-flow_rate = 45.7      # MMSCFD
+flow_rate = float(input("Enter flowrate : "))      # MMSCFD
 run_status = True
 unit_name = "A"
 
