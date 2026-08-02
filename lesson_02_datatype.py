@@ -1,7 +1,7 @@
 # Lesson 02 - Variables & Datatype
 
 pressure = 950        # kPa
-temperature = 68      # °C
+temperature = float(68)      # °C
 flow_rate = 45.7      # MMSCFD
 run_status = True
 unit_name = "A"
