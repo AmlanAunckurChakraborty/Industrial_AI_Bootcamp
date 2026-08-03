@@ -1,4 +1,3 @@
-"""
 #Basic list 
 plant_data = [500,100.2]
 print(plant_data)
@@ -36,7 +35,7 @@ print(temp2,"\n")
 print(temp3,"\n")
 unit_data = [pressure1,temp1,pressure2,temp2,pressure3,temp3]
 print(unit_data)
-"""
+
 #using map to wrap everything in one line **** one drwaback only make list with one data type at a time, cant mix diff. datatype veriables****
 pressure = list(map(int,input("Enter pressure1 pressure2 pressure3 values: ").split()))
 temp = list(map(float,input("Enter temperature1 temperature2 temperature3 values: ").split()))
