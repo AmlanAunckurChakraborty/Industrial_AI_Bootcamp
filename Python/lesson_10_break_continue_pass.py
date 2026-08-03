@@ -18,8 +18,8 @@ print("\n========== CONTINUE ==========\n")
 m = 1
 while m <= 6:
     print("Number of iteration before continue:", m)
-    m += 1   
-    j = m-1       # need n+1 before continue 
+    m += 1         # # Increment before continue, otherwise the loop could become infinite.
+    j = m-1       
     if m == 4:
         continue   # continue skips the remaining statements of this iteration
     print("Number of iteration after continue:", j) # not in the continue funtion, in the while loop till skip this iteration and go to next iteration
@@ -35,6 +35,6 @@ while p <= 6:
     p += 1 
     k = p-1       # need n+1 before pass
     if p == 4:
-        pass      # pass does nothing
-    print("Number of iteration after pass:", k) # in the pass funtion , not in the while loop,only skip the next line not the iteration and if use with while loop then will till print as not with the pass
+        pass      # pass does nothing but simply ignore the next line
+    print("Number of iteration after pass:", k) # in the pass funtion , not in the while loop,only ignore the next line not the iteration and if use with while loop then will till print as not with the pass
     print("iteration completed ")
