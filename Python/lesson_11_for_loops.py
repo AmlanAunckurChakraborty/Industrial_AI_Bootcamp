@@ -52,7 +52,7 @@ for compressor in range(1, 4): # range should be (last output + 1)
         print("Checking Valve's Number", valve)
     print()
 
-#Nested for loop
+#Nested for loop with enumerate
 print("\nNested FOR LOOP WITH ENUMERATE\n")
 
 for compressor_count, compressor in enumerate(range(1, 4), start=1):
