@@ -10,7 +10,10 @@ for index, value in enumerate(pressure):
     print(index, value)
 # slicing can be done as its not changing the the tuple but just pulling the values we want
 print("\nSLICING\n")
-pressure = (500,510,520,530,540) # CAN NOT CHANGE THE TUPLE BUT CAN CHANGE IN VERIABLE SO WE CAN REDEFINE SAME VERIABLE TO SAME NEW TUPLE
+# CAN NOT CHANGE THE TUPLE BUT CAN CHANGE IN VERIABLE SO WE CAN REDEFINE SAME VERIABLE TO SAME NEW TUPLE 
+# Tuple cannot be modified.
+# The variable can point to a new tuple.
+pressure = (500,510,520,530,540) 
 print(pressure[1:4])
 print(pressure[::2])
 print(pressure[::-1])
@@ -41,7 +44,7 @@ print(P3)
 # removed_value = pressure.pop(3)   ***** tuple cant changed after creation so remove cant work
 # print("removed value:", removed_value)
 # print("list pop: ",pressure)      ***** tuple cant changed after creation so pop cant work
-# copy_pressure = pressure.copy()   ***** tuple cant do copy
+# copy_pressure = pressure.copy()   ***** tuple has no copy() method because it is immutable
 # print("list copy: ",copy_pressure)
 # copy_pressure.clear()               ***** tuple cant changed after creation so clear cant work
 # print("list clear: ",copy_pressure)
