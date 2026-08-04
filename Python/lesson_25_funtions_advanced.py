@@ -17,7 +17,7 @@ def compressor(name, **sensor): #by one star (*a) we make args and by two star (
 compressor("Compressor_A",Pressure=520,Temperature=42,Flow=120)
 compressor("Compressor_B",Pressure=540,Temperature=45,Flow=130,Current=34.5,Running=True)
 
-#lembda write  a single executable function in one line
+#lambda write  a single executable function in one line
 print("\n========== LAMBDA ==========\n")
 # Addition (aritmatic)
 add = lambda a, b: a + b
