@@ -14,7 +14,7 @@ print("compressor2",compressor2)
 
 # LENGTH
 print("\nDictionary Length")
-print("dictionaries len:",(compressor))
+print("dictionaries len:",len(compressor))
 
 # ACCESS VALUE
 print("\nAccess Values")
@@ -65,7 +65,8 @@ print("print membership of motor","Motor" in compressor)
 
 # keys()
 print("\nkeys()")
-print("print",compressor.keys()) # ***** automatically print dict keys but will not mentaion the name od the keys we need to name them if more then one dictionaries
+print("print",compressor.keys()) # ***** returns a special object called a Dictionary View.,
+# automatically print dict keys but will not mentaion the name od the keys we need to name them if more then one dictionaries *****
 
 # values()
 print("\nvalues()")
@@ -117,4 +118,4 @@ best_compressor_output.update({"pressure":plant["Compressor_A"]["Pressure"], "Te
 print("BEST COMPRESSOR OUTPUTS",best_compressor_output)
 
 plant = {"Compressor_A":{"Pressure":520,"Temperature":42},"Compressor_B":{"Pressure":530,"Temperature":45},"Compressor_B":{"Pressure":120,"Temperature":41},"Compressor_D":{"Pressure":50,"Temperature":45}}
-print("same plant",plant)
+print("same plant",plant) # THOUGH THE VALUES ARE DIFFERENT BUT THE NMAE IS SAME OF COMPRESSOR B SO PRINT ONLY ONCE
