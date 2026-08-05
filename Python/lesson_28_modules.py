@@ -29,7 +29,7 @@ for i in range(10):
 print ("\n ====math===\n")
 import math as m
 print(math.pi) # simply constant π we used in math circumferance/redious
-print("pi",m.pi) #both will work the original module name and the alias like amlan as 1st person and he as 3rd both define one man
+print("pi",m.pi) #bas in the prgram we import both math and math as m so both works otherwise math wont work if we define math as m only
 print("e",m.e) #same euler number e
 print("squre root",m.sqrt(100)) #same suare root in algebra
 print("power",m.pow(2,3)) #same as ** 2**3
