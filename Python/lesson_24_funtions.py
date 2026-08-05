@@ -1,22 +1,16 @@
 # Functons 
 def compressor():
-
     print("Compressor Running")
 
 compressor()
 
 def compressor_status(name, pressure):
-
     print(name)
-
     print("Pressure :", pressure)
-
     print()
 
 compressor_status("Compressor A",520)
-
 compressor_status("Compressor B",545)
-
 compressor_status("Compressor C",510)
 
 #return
