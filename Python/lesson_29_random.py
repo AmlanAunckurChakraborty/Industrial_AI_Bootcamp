@@ -49,3 +49,24 @@ print(phone)
 for n in range(5):
  phone = "02" + str(r.randint(1000000, 9999999))
  print(phone)
+
+#mobile phone number data generation 
+third = r.choice([3, 4, 5, 6, 7, 8, 9]) # need to put it in the for loop otherwise every number will have same third number which it randomly picks first
+for n in range (5):
+ phone = "+880-1" + str(third) + str(r.randint(10000000, 99999999))
+ print(phone)
+
+
+#final one
+print("\n=== Final One ===\n")
+operator_identifier = ["7","3","9","4","8","6","5"]
+user_ratio  = [40,15,20,8,10,5,2]
+
+for n in range(30):
+    thierd_digit = r.choices(operator_identifier, weights= user_ratio, k=1)[0] 
+# [0] is used to get the value of first element of the list and k= 1 as we need only one number during one iteration 
+    phone = "+880-1" + thierd_digit + str(r.randint(10000000,99999999))
+    print(phone)
+
+print("phone datatype",type(phone))
+print("thrid_digit datatype",type(thierd_digit))
