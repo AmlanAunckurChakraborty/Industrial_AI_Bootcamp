@@ -14,7 +14,7 @@ file.close()
 
 #Append a file dont replace previous datas, add at the end
 file = open("data.txt", "a")
-file.write("New writting added Amlan\n") #new line works here so
+file.write("New writting added Amlan\n new line 3\n new line 4\n new line \n") #new line works here so
 file.close()
 
 
@@ -39,11 +39,8 @@ for n in range(30):
     thierd_digit = r.choices(operator_identifier, weights= user_ratio, k=1)[0] 
     phone = "+880-1" + thierd_digit + str(r.randint(10000000,99999999))
     file.write(phone + "\n")
-""""
-  file.write(phone)      # write() writes one string at a time, so multiple writes are needed for multiple pieces of data.
-    file.write("\n")
-"""
+
+ # file.write(phone)      # write() writes one string at a time, so multiple writes are needed for multiple pieces of data.
+ #   file.write("\n")
+
 file.close()
-
-
-
