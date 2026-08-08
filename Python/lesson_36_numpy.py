@@ -9,4 +9,7 @@ plant = {"Pressure": [520, 521, 518, 523, 519],
 df = pd.DataFrame(plant)
 
 df.loc[1, "Temperature"] = np.nan
+df.loc[3, "Flow"] = np.nan
 print(df)
+print(df.isna())
+print(df.isna().sum())
